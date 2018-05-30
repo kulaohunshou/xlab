@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Dev_install\\nodejs\\node.exe',
+1 verbose cli   'D:\\Dev_install\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle koa-weapp-demo@1.0.0~prestart: koa-weapp-demo@1.0.0
+6 silly lifecycle koa-weapp-demo@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle koa-weapp-demo@1.0.0~start: koa-weapp-demo@1.0.0
+8 verbose lifecycle koa-weapp-demo@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle koa-weapp-demo@1.0.0~start: PATH: D:\Dev_install\nodejs\node_modules\npm\bin\node-gyp-bin;D:\2018Q2\小程序\wafer2-quickstart-nodejs-master\server\node_modules\.bin;D:\Dev_install\nodejs\node_global;D:\python\Lib\site-packages\django\bin;C:\ProgramData\Oracle\Java\javapath;D:\apache-maven-3.3.9\bin;D:\Java\jdk1.8.0_20\bin;D:\Java\jdk1.8.0_20\jre\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;D:\git\Git\cmd;D:\hadoop-2.6.0\bin;D:\Dev_install\nodejs\;D:\python;D:\cig-git-repo\suzxblog\node_modules\.bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Amazon\AWSCLI\;D:\scala\scala-2.11.8\bin;D:\ue;D:\Anaconda3\install;D:\Anaconda3\install\Scripts;D:\Anaconda3\install\Library\bin;D:\Anaconda3\install\Scripts;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;E:\software_install\DriverGenius;E:\software_install\DriverGenius\ksoft
+10 verbose lifecycle koa-weapp-demo@1.0.0~start: CWD: D:\2018Q2\小程序\wafer2-quickstart-nodejs-master\server
+11 silly lifecycle koa-weapp-demo@1.0.0~start: Args: [ '/d /s /c', 'pm2 start process.prod.json --no-daemon' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1022:11)
+12 verbose stack     at process.kill (internal/process.js:172:13)
+12 verbose stack     at process.listener (D:\Dev_install\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (D:\Dev_install\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (D:\Dev_install\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:199:44)
+13 verbose cwd D:\2018Q2\小程序\wafer2-quickstart-nodejs-master\server
+14 error Windows_NT 6.1.7601
+15 error argv "D:\\Dev_install\\nodejs\\node.exe" "D:\\Dev_install\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v6.10.0
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
