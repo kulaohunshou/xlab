@@ -12,8 +12,9 @@
     "license": "MIT",
     "engines": {
         "node": ">=7.0.0"
-      },
+    },
     "dependencies": {
+        "aws-sdk": "^2.249.1",
         "axios": "^0.15.3",
         "knex": "^0.13.0",
         "koa": "^2.0.0",
